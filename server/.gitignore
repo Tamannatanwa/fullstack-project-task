@@ -1,0 +1,36 @@
+# Environment variables
+.env
+
+# Build artifacts (if applicable)
+build/
+dist/
+
+# IDE-specific directories
+.idea/
+.vscode/
+
+# Test data (if applicable)
+test_data/
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+
+# Package manager lock files
+package-lock.json  # npm/yarn
+yarn.lock
+
+# Node.js modules (.node files)
+# If you compile native addons
+*.node
+
+# Objection.js cache files (if applicable)
+.objection.cache.json
+
+# Knex migration files (if applicable)
+knex/migrations/
+
+# Sensitive database credentials (consider using environment variables)
+knexfile.js
